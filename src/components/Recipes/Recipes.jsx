@@ -1,10 +1,21 @@
+import { useEffect, useState } from "react";
 import Recipe from "../Recipe/Recipe";
 
-const Recipes = () => {
+const Recipes = ({ handleCookItems }) => {
+
+    const [recipes, setRecipes] = useState([]);
+
+    useEffect( () => {
+        fetch("recipes.json")
+        .then(response => response.json())
+        .then(data => setRecipes(data))
+    }, []);
+
     return (
-        <div>
-            <h2>Recipes Here</h2>
-            <Recipe />
+        <div className="w-[782px] grid grid-cols-2 gap-6">
+            {
+                recipes.map((recipe, index) => <Recipe handleCookItems={handleCookItems} key={index} recipe={recipe} />)
+            }
         </div>
     );
 };
