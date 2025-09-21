@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Cooking from "../Cooking/Cooking";
 import WantToCook from "../WantToCook/WantToCook";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 
 
 const CookTable = ({ data, setData }) => {
@@ -25,7 +25,6 @@ const CookTable = ({ data, setData }) => {
         <div className="w-[514px] flex flex-col gap-8 border border-[#28282833] rounded-2xl py-8">
             <WantToCook handleCooking={handleCooking} data={wantToCook} />
             <Cooking data={cooking} />
-            <ToastContainer />
         </div>
     );
 };

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import CookTable from "../CookTable/CookTable";
 import Recipes from "../Recipes/Recipes";
-import { ToastContainer , toast } from "react-toastify";
+import { toast } from 'react-toastify';
 
 const RecipeContainer = () => {
 
@@ -24,7 +24,6 @@ const RecipeContainer = () => {
                 <Recipes handleCookItems={handleCookItems} />
                 <CookTable data={cookItems} setData={setCookItems} />
             </div>
-            <ToastContainer />
         </div>
     );
 };
