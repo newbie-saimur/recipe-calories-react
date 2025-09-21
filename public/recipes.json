@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.postimg.cc/7YySn4pK/recipe-1.jpg",
+    "recipe_name": "Spaghetti Bolognese",
+    "small_description": "Classic Italian pasta dish with savory meat sauce.",
+    "Ingredients": [
+      "500g ground beef",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "400g spaghetti",
+      "2 cups tomato sauce",
+      "2 tbsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "preparation_time": "40 minutes",
+    "calories": 650
+  },
+  {
+    "id": 2,
+    "img": "https://i.postimg.cc/DydLCDhn/recipe-2.jpg",
+    "recipe_name": "Vegetable Stir Fry",
+    "small_description": "Quick Asian-style stir fry packed with colorful vegetables.",
+    "Ingredients": [
+      "1 cup broccoli florets",
+      "1 red bell pepper, sliced",
+      "1 carrot, julienned",
+      "2 tbsp soy sauce",
+      "1 tbsp sesame oil",
+      "2 cloves garlic, minced"
+    ],
+    "preparation_time": "20 minutes",
+    "calories": 280
+  },
+  {
+    "id": 3,
+    "img": "https://i.postimg.cc/pTJPNDLh/recipe-3.jpg",
+    "recipe_name": "Grilled Chicken Salad",
+    "small_description": "Healthy and refreshing salad with grilled chicken and fresh veggies.",
+    "Ingredients": [
+      "300g chicken breast",
+      "1 cucumber, sliced",
+      "1 tomato, diced",
+      "1 cup lettuce leaves",
+      "2 tbsp olive oil",
+      "1 tsp lemon juice",
+      "Salt and pepper to taste"
+    ],
+    "preparation_time": "25 minutes",
+    "calories": 350
+  },
+  {
+    "id": 4,
+    "img": "https://i.postimg.cc/qRTpZm4H/recipe-4.jpg",
+    "recipe_name": "Beef Tacos",
+    "small_description": "Mexican-style tacos filled with seasoned beef and fresh toppings.",
+    "Ingredients": [
+      "300g ground beef",
+      "1 packet taco seasoning",
+      "6 taco shells",
+      "1/2 cup shredded lettuce",
+      "1/2 cup cheddar cheese",
+      "1/4 cup salsa"
+    ],
+    "preparation_time": "30 minutes",
+    "calories": 520
+  }
+]

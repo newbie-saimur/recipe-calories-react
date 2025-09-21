@@ -1,13 +1,18 @@
 import './App.css'
+import Header from './components/Header/Header'
+import Hero from './components/Hero/Hero'
+import RecipeContainer from './components/RecipeContainer/RecipeContainer'
 
 function App() {
 
   return (
     <>
-      <h2>Hello world</h2>
-      <button className='btn btn-primary'>hahaha</button>
+      <Header />
+      <Hero />
+      <RecipeContainer />
     </>
   )
 }
 
 export default App
+ 
